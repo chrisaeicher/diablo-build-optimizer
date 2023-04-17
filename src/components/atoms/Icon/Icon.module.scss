@@ -1,0 +1,29 @@
+.Icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		width: auto;
+	}
+
+	&.xs svg {
+		height: 0.5rem;
+	}
+
+	&.sm svg {
+		height: 0.75rem;
+	}
+
+	&.md svg {
+		height: 1.5rem;
+	}
+
+	&.lg svg {
+		height: 3rem;
+	}
+
+	&.xl svg {
+		height: 5rem;
+	}
+}
