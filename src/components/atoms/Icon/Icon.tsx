@@ -13,7 +13,6 @@ interface IconProps {
 export default function Icon(IconProps: IconProps) {
 	const iconProps = { ...IconProps };
 	const size = iconProps.size || 'md';
-	console.log(styles);
 	const classNames =
 		`${styles.Icon} ${styles[size]}` +
 		(iconProps?.className ? ` ${iconProps.className}` : '');
